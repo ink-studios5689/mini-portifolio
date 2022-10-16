@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilos.css">
+    <link rel="stylesheet" href="./src/CSS/ScrollBar.css">
+
+    <title>Projeto Mini Portfolio</title>
+
+</head>
+<body>
+    <main class="cartao"> 
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Yuri Baleeiro Souza</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Junior</h2>
+        </div>
+        
+        <div class="conteudo"> 
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone-do-sobre-mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/planetas.gif" alt="icone-do-redes-sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                <h3 class="sub-titulo">Sobre Mim</h3>
+
+                    <p class="descricao">Ola! Meu nome é Yuri Baleeiro Souza, Seja Bem-vindo(a)!</p>
+
+                    <p class="descricao">Sou uma pessoa apaixonada pela area da tecnologia e informatica desde criança. 
+                        Sempre tive o sonho de trabalhar com Progamação e atualmente estou estudando para colocar isso em pratica no futuro!
+                        Atualmente estou estudando <span>HTML, CSS e JavaScript</span>. 
+                        Gosto muito de Animes e mangás e meus hobbies estão ligados a jogar jogos de sandbox, Terror 
+                        ou Sobrevivencia e tirar fotos.
+                        
+                        Eu devo muito a minha prima <span>Luciana</span> e seu esposo <span>Renato</span> que me incentivaram a seguir esse caminho
+                        e me deram um ponto de partida pra seguir em frente 
+                        
+                    </p>
+                    
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.instagram.com/yuri_ketchup/" target="_blank" class="instagram"><img src="./src/imagens/Instagram-Icon.png" alt="Icone do Instagram">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ink-studios5689" target="_blank" class="github"><img src="./src/imagens/github-icone.png" alt="Icone do github">GitHub</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
